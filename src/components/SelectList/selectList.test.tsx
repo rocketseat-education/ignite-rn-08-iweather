@@ -18,7 +18,7 @@ describe("Component: SelectList", () =>{
       />
     )
 
-    const selectedCity = screen.getByText('Campinas')
+    const selectedCity = screen.getByText(/campo/i)
     console.log(selectedCity)
   })
 })
